@@ -1,0 +1,179 @@
+body {
+  margin: 0;
+  text-align: center;
+  font-family: 'East Sea Dokdo', cursive;
+  background-color: #fff0f0;
+}
+
+h1 {
+  color: #463333;
+  font-family: 'Nerko One', cursive;
+  font-size: 6.5rem;
+  margin: 3rem auto 0 auto;
+}
+
+h2 {
+  font-family: 'Nerko One', cursive;
+  font-size: 3rem;
+}
+
+h3 {
+  font-family: 'Nerko One', cursive;
+  margin: 2% auto 0 auto;
+  font-size: 1.5rem;
+}
+
+p {
+  font-family: 'East Sea Dokdo', cursive;
+  font-size: 1.5rem;
+}
+
+.sub {
+  color: #463333;
+  font-family: 'East Sea Dokdo', cursive;
+  font-size: 1.8rem;
+  font-weight: normal;
+  margin-top: 1rem;
+}
+
+.topContainer {
+  position: relative;
+  padding-top: 100px;
+  height: 100vh;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 18%;
+  top: 10%;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 18%;
+  bottom: 40%;
+}
+
+.cartoon {
+  position: absolute;
+  bottom: 5%;
+  left: 35%;
+  mix-blend-mode: multiply;
+}
+
+.MiddleContainer {}
+
+.profile {
+  width: 70%;
+  margin: 0 auto 0 auto;
+}
+
+.profile-title {
+  margin-top: 5%;
+}
+
+.profile-pic {
+  float: left;
+  width: 30%;
+  margin: auto 7% 5% auto;
+}
+
+.horizontal-rule {
+  clear: left;
+  color: #835858;
+  border: dotted 6px;
+  border-bottom: none;
+  width: 5%;
+}
+
+.project-title {
+  margin-top: 5%;
+}
+
+.project-row {
+  width: 70%;
+  margin: 0 auto 0 auto;
+}
+
+.ITrash-img {
+  width: 30%;
+  height: 40%;
+  float: left;
+  margin: 2% 7% 2% 2%;
+}
+
+.Itrash-description {
+  text-align: left;
+}
+
+.secondp {
+  clear: left;
+}
+
+.Contact-title {
+  margin: 5% auto 0 auto;
+}
+
+.bottom-container {
+  background-color: #ebd4d4;
+  margin: 5% auto 0 auto;
+  padding: 1rem 0 1rem;
+}
+
+.footer{
+  font-size: 1.2rem;
+  margin: 1% auto 1% auto;
+}
+
+.inline-paragraph {
+  display: inline;
+  margin: auto;
+}
+
+.btn {
+  -moz-box-shadow: inset 0px 1px 0px 0px #efdcfb;
+  -webkit-box-shadow: inset 0px 1px 0px 0px #efdcfb;
+  box-shadow: inset 0px 1px 0px 0px #efdcfb;
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, #dfbdfa), color-stop(1, #bc80ea));
+  background: -moz-linear-gradient(center top, #dfbdfa 5%, #bc80ea 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#dfbdfa', endColorstr='#bc80ea');
+  background-color: #dfbdfa;
+  -webkit-border-top-left-radius: 8px;
+  -moz-border-radius-topleft: 8px;
+  border-top-left-radius: 8px;
+  -webkit-border-top-right-radius: 8px;
+  -moz-border-radius-topright: 8px;
+  border-top-right-radius: 8px;
+  -webkit-border-bottom-right-radius: 8px;
+  -moz-border-radius-bottomright: 8px;
+  border-bottom-right-radius: 8px;
+  -webkit-border-bottom-left-radius: 8px;
+  -moz-border-radius-bottomleft: 8px;
+  border-bottom-left-radius: 8px;
+  text-indent: 0;
+  border: 1px solid #c584f3;
+  display: inline-block;
+  color: #ffffff;
+  font-family: 'East Sea Dokdo', cursive;
+  font-size: 30px;
+  font-weight: bold;
+  font-style: normal;
+  height: 38px;
+  line-height: 38px;
+  width: 108px;
+  text-decoration: none;
+  text-align: center;
+  text-shadow: 0px 1px 0px #9752cc;
+}
+
+.btn:hover {
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, #bc80ea), color-stop(1, #dfbdfa));
+  background: -moz-linear-gradient(center top, #bc80ea 5%, #dfbdfa 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#bc80ea', endColorstr='#dfbdfa');
+  background-color: #bc80ea;
+}
+
+.btn:active {
+  position: relative;
+  top: 1px;
+}
