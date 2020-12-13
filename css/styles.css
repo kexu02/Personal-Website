@@ -31,6 +31,13 @@ p {
   font-size: 1.5rem;
 }
 
+.title{
+  width: 100%;
+  position: absolute;
+  top: 3%;
+  padding-left: 5%;
+}
+
 .sub {
   color: #463333;
   font-family: 'East Sea Dokdo', cursive;
