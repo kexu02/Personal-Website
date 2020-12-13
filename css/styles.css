@@ -78,6 +78,7 @@ a:hover{
 .profile {
   width: 70%;
   margin: 0 auto 0 auto;
+  padding-top: 56px;
 }
 
 .profile-title {
@@ -86,7 +87,7 @@ a:hover{
 
 .profile-pic {
   float: left;
-  margin: 5% 7% 10% auto;
+  margin: 5% auto 10% auto;
 }
 
 .my-description{
@@ -99,24 +100,25 @@ a:hover{
   border: dotted 6px;
   border-bottom: none;
   width: 5%;
-  margin: 5% auto 5% auto;
+  margin: 9% auto 9% auto;
 }
 
 .project-title {
   margin: 5% auto 5% auto;
 }
 
-.project-row {
+.my-project{
   width: 70%;
   margin: 0 auto 0 auto;
+  padding-top: 56px;
 }
 
-.ITrash-img {
+.project-img {
   float: left;
-  margin: 5% 7% 7% 2%;
+  margin: 5% auto 7% auto;
 }
 
-.Itrash-description {
+.project-description {
   margin: 5% auto 5% auto;
 }
 
@@ -128,10 +130,14 @@ a:hover{
   margin: 5% auto 3% auto;
 }
 
+.contact-me{
+  padding-top: 130px;
+}
+
 .bottom-container {
   background-color: #ebd4d4;
   margin: 5% auto 0 auto;
-  padding: 1rem 0 1rem;
+  padding: 1rem 0 1rem 0;
 }
 
 .footer{
