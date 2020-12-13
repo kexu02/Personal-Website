@@ -3,6 +3,7 @@ body {
   text-align: center;
   font-family: 'East Sea Dokdo', cursive;
   background-color: #fff0f0;
+  padding-top: 56px;
 }
 
 h1 {
@@ -32,7 +33,7 @@ p {
 }
 
 a:hover{
-   color: #fff0f0;
+  color: #fff0f0;
 }
 
 .title{
@@ -40,7 +41,17 @@ a:hover{
   width: 100%;
   position: absolute;
   top: 0;
+}
+
+.title-text{
+  color: #463333;
+  font-family: 'Nerko One', cursive;
+  font-size: 1.3rem;
   padding-left: 3%;
+}
+
+.navbar-collapse.collapse.in {
+  display: block!important;
 }
 
 .sub {
@@ -57,12 +68,6 @@ a:hover{
   height: 100%;
 }
 
-.bottom-cloud {
-  position: absolute;
-  left: 15%;
-  bottom: 40%;
-}
-
 .cartoon {
   bottom: 5%;
   left: 32%;
@@ -70,26 +75,22 @@ a:hover{
   mix-blend-mode: multiply;
 }
 
-.MiddleContainer {}
-
 .profile {
   width: 70%;
   margin: 0 auto 0 auto;
 }
 
 .profile-title {
-  margin-top: 5%;
+  margin: 5% auto 5% auto;
 }
 
 .profile-pic {
   float: left;
-  width: 30%;
-  margin: 5% 7% 5% auto;
+  margin: 5% 7% 10% auto;
 }
 
 .my-description{
-  text-align: left;
-  padding-top: 5%;
+  margin: 5% auto 5% auto;
 }
 
 .horizontal-rule {
@@ -98,10 +99,11 @@ a:hover{
   border: dotted 6px;
   border-bottom: none;
   width: 5%;
+  margin: 5% auto 5% auto;
 }
 
 .project-title {
-  margin-top: 5%;
+  margin: 5% auto 5% auto;
 }
 
 .project-row {
@@ -110,14 +112,12 @@ a:hover{
 }
 
 .ITrash-img {
-  width: 30%;
-  height: 40%;
   float: left;
-  margin: 2% 7% 7% 2%;
+  margin: 5% 7% 7% 2%;
 }
 
 .Itrash-description {
-  text-align: left;
+  margin: 5% auto 5% auto;
 }
 
 .secondp {
@@ -125,7 +125,7 @@ a:hover{
 }
 
 .Contact-title {
-  margin: 5% auto 0 auto;
+  margin: 5% auto 3% auto;
 }
 
 .bottom-container {
@@ -136,6 +136,7 @@ a:hover{
 
 .footer{
   color: #463333;
+  font-family: 'Nerko One', cursive;
   font-size: 1.2rem;
   text-decoration: none;
   margin: 1% auto 1% auto;
@@ -147,6 +148,7 @@ a:hover{
 }
 
 .btn {
+  margin-top: 3%;
   -moz-box-shadow: inset 0px 1px 0px 0px #efdcfb;
   -webkit-box-shadow: inset 0px 1px 0px 0px #efdcfb;
   box-shadow: inset 0px 1px 0px 0px #efdcfb;
