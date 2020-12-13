@@ -39,7 +39,7 @@ p {
 .topContainer {
   position: relative;
   padding-top: 100px;
-  height: 100vh;
+  height: 100%;
 }
 
 .top-cloud {
@@ -55,9 +55,9 @@ p {
 }
 
 .cartoon {
-  position: absolute;
   bottom: 5%;
-  left: 35%;
+  left: 32%;
+  width: 35%;
   mix-blend-mode: multiply;
 }
 
