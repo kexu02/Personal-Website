@@ -13,17 +13,20 @@ h1 {
 }
 
 h2 {
+  color: #463333;
   font-family: 'Nerko One', cursive;
   font-size: 3rem;
 }
 
 h3 {
+  color: #463333;
   font-family: 'Nerko One', cursive;
   margin: 2% auto 0 auto;
   font-size: 1.5rem;
 }
 
 p {
+  color: #463333;
   font-family: 'East Sea Dokdo', cursive;
   font-size: 1.5rem;
 }
@@ -121,8 +124,14 @@ p {
 }
 
 .footer{
+  color: #463333;
   font-size: 1.2rem;
+  text-decoration: none;
   margin: 1% auto 1% auto;
+}
+
+a:hover{
+   color: #fff0f0;
 }
 
 .inline-paragraph {
