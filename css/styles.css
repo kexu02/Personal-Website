@@ -36,6 +36,10 @@ a:hover{
   color: #fff0f0;
 }
 
+.homepage{
+  height = 100%;
+}
+
 .title{
   background-color: #ebd4d4;
   width: 100%;
@@ -65,7 +69,6 @@ a:hover{
 .topContainer {
   position: relative;
   padding-top: 100px;
-  height: 100%;
 }
 
 .cartoon {
