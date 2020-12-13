@@ -21,21 +21,26 @@ h2 {
 h3 {
   color: #463333;
   font-family: 'Nerko One', cursive;
-  margin: 2% auto 0 auto;
+  margin: 8% auto 3% auto;
   font-size: 1.5rem;
 }
 
 p {
   color: #463333;
   font-family: 'East Sea Dokdo', cursive;
-  font-size: 1.5rem;
+  font-size: 1.8rem;
+}
+
+a:hover{
+   color: #fff0f0;
 }
 
 .title{
+  background-color: #ebd4d4;
   width: 100%;
   position: absolute;
-  top: 3%;
-  padding-left: 5%;
+  top: 0;
+  padding-left: 3%;
 }
 
 .sub {
@@ -52,15 +57,9 @@ p {
   height: 100%;
 }
 
-.top-cloud {
-  position: absolute;
-  right: 18%;
-  top: 10%;
-}
-
 .bottom-cloud {
   position: absolute;
-  left: 18%;
+  left: 15%;
   bottom: 40%;
 }
 
@@ -85,7 +84,12 @@ p {
 .profile-pic {
   float: left;
   width: 30%;
-  margin: auto 7% 5% auto;
+  margin: 5% 7% 5% auto;
+}
+
+.my-description{
+  text-align: left;
+  padding-top: 5%;
 }
 
 .horizontal-rule {
@@ -109,7 +113,7 @@ p {
   width: 30%;
   height: 40%;
   float: left;
-  margin: 2% 7% 2% 2%;
+  margin: 2% 7% 7% 2%;
 }
 
 .Itrash-description {
@@ -135,10 +139,6 @@ p {
   font-size: 1.2rem;
   text-decoration: none;
   margin: 1% auto 1% auto;
-}
-
-a:hover{
-   color: #fff0f0;
 }
 
 .inline-paragraph {
