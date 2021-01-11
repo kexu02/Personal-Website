@@ -38,10 +38,10 @@
     </div>
   </nav>
   <div class="row my-project">
-    <div class="col-lg-12 col-md-12 col-sm-6">
+    <div class="col-lg-12 col-md-12 col-sm-12">
       <h2 class="project-title">My projects.</h2>
     </div>
-    <div class="col-lg-6 col-md-6 col-sm-3">
+    <div class="col-lg-6 col-md-6 col-sm-6">
       <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
         <ol class="carousel-indicators">
           <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
@@ -69,22 +69,39 @@
         </a>
       </div>
     </div>
-    <div class="col-lg-6 col-md-6 col-sm-3">
+    <div class="col-lg-6 col-md-6 col-sm-6">
       <h3>ITrash</h3>
       <p class="project-description">
-        Itrash is an autonomous trashcan that can detect moving objects, calculate their trajectories and move towards them to catch them.
+        ITrash is an autonomous trash can that can detect projectile garbage, calculate its trajectory,
+        predict where it will land and move accordingly to catch it. ITrash uses OpenCV to detect the
+        motion of the trash. A Raspberry Pi with a camera module is placed on a wall to take a stream
+        of pictures whenever a moving object is detected. Two pictures and the time interval between them
+        are then used to calculate the estimated landing position. This information is passed on to
+        the base of ITrash afterwards to allow it to travel to the expected landing coordinate.
+        The base of ITrash uses Arduino, omni wheels, motors and sensors to move it towards the specified
+        coordinate which the Arduino receives from the Raspberry Pi. The sensors give ITrash a relative
+        position according to its surroundings while the motors allow ITrash to move forward and
+        backward continuously.
       </p>
+      <a class="link" href="#">Learn more</a>
     </div>
-    <div class="col-lg-12 col-md-12 col-sm-6">
+
+    <div class="col-lg-12 col-md-12 col-sm-12">
       <hr class="horizontal-rule">
     </div>
-    <div class="col-lg-4 col-md-4 col-sm-3">
-      <img class="project-img" src="images/ITrash.png" alt="ITrash-img">
+
+    <div class="col-lg-6 col-md-6 col-sm-6">
+     <img class="project-img d-block w-100 website-img" src="images/ttdo.jpg" alt="T_TDO-img">
     </div>
-    <div class="col-lg-6 col-md-6 col-sm-3">
-      <h3>Lorem Ipsum Dolor</h3>
+    <div class="col-lg-6 col-md-6 col-sm-6">
+      <h3>T_TDO</h3>
       <p class="project-description">
-        Lorem ipsum dolor sit amet, mauris sed consectetuer. Etiam et eu, bibendum interdum, lacus quis mauris. Curabitur wisi, quisque vel eu, rutrum nam.</p>
+        T_TDO is a web application that allows users to add and delete tasks/events on their to-do list.
+        It stores the user information and inputs in database. Users can view their tasks/events
+        in a list as well as in calender view. A calender tab is implemented to display the obtained data.
+        This web application is developed with MongoDB Cloud database, Node.js Back-End and EJS/HTML Front-End.
+      </p>
+      <a class="link" href="https://ttdo.herokuapp.com/">Link to the website</a>
     </div>
   </div>
 </body>

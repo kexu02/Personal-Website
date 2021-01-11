@@ -30,8 +30,8 @@ h3 {
 
 p {
   color: #463333;
-  font-family: 'East Sea Dokdo', cursive;
-  font-size: 1.8rem;
+  font-family: 'Nerko One', cursive;
+  font-size: 1.1rem;
 }
 
 a:hover{
@@ -115,6 +115,7 @@ a:hover{
 
 .my-description{
   margin: 5% auto 5% auto;
+  font-size: 1.5rem;
 }
 
 .horizontal-rule {
@@ -123,7 +124,7 @@ a:hover{
   border: dotted 6px;
   border-bottom: none;
   width: 5%;
-  margin: 9% auto 9% auto;
+  margin: 9% auto 5% auto;
 }
 
 .project-title {
@@ -136,20 +137,35 @@ a:hover{
   padding-top: 56px;
 }
 
+.link {
+  font-family: 'Nerko One', cursive;
+  color: #706897;
+  font-size: 1.1rem;
+  text-decoration: underline;
+}
+
+.link:hover{
+  color: #463333;
+}
+
 .carousel-item{
   padding: 15% 15%;
 }
 
 .project-img {
   float: left;
-  margin: 5% auto 7% auto;
+  margin: 5% auto 15% auto;
   display: block;
   width: 100%;
 }
 
+.website-img {
+  padding-top: 12%;
+}
+
 .project-description {
   text-align: left;
-  margin: 5% auto 10% auto;
+  margin: 5% auto 2% auto;
   padding-left: 5%;
 }
 
